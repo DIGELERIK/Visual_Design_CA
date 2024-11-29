@@ -2,26 +2,29 @@ body {
     background-color: #0b4650;
 }
 
+main {
+    padding-bottom: 40px;
+}
+
 .header-container {
     display: flex;
     align-items: flex-start;
+    background-color: #072a30;
+    border-radius: 20px;
 }
 
-.logo {
-    width: 8%;
+.TechTutors_logo {
+    width: 100px;
     height: auto;
     margin-top: 0;
     margin-left: 20px;
 }
 
 nav {
-    border-radius: 10px;
-    display: inline;
     margin-left: auto;
 }
 
 nav ul {
-    text-align: left;
     display: flex;
 }
 
@@ -41,7 +44,7 @@ nav a {
 
 nav a:hover {   
     color:white;
-    background-color: #766092;
+    background-color: #0b4650;
 }
 
 
@@ -56,4 +59,24 @@ header {
     color: white;
     text-align: center;
 }
+
+footer {
+    color: white;
+    display: inline-flex;
+    padding: 10px;
+}
+
+footer p {
+    margin-left: 105px;
+    margin-right: auto;
+}
+
+.Socials_logo {
+    width: 60px;
+    height: auto;
+    margin-top: 0;
+    padding-right: 20px;
+}
+
+
 
