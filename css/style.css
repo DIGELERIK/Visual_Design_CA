@@ -59,7 +59,7 @@ main {
     flex-direction: row-reverse;
 }
 
-.Home-page-drawing {
+.Big-Img {
     width: 35%;
     height: auto;
 }
@@ -105,7 +105,7 @@ header {
     text-align: center;
 }
 
-.feature-icons {
+.Small-icons {
     width: 80px;
     height: 80px;
     margin-bottom: 10px;
@@ -172,7 +172,7 @@ footer p {
     gap: 30px; 
 }
 
-.Courses-icons {
+.Big-icons {
     width: 160px;
     height: auto;
     border-radius: 30px;
@@ -212,6 +212,37 @@ table tr td {
 .odd {
     background-color: #1a3b43; 
 }
+
+.HowItWorks-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.Step-item {
+    border-radius: 30px;
+    background-color: #072a30;
+    padding: 20px;
+}
+
+.header-text {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.How-it-works-info {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 
 
 
