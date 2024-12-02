@@ -275,6 +275,7 @@ table tr td {
 }
 
 .Contact-container {
+    font-size: 150%;
     text-align: center;
     border-radius: 8px;
     background-color: #072a30;
@@ -285,6 +286,7 @@ table tr td {
 }
 
 .Contact-info {
+    font-size: 150%;
     text-align: center;
     border-radius: 8px;
     background-color: #072a30;
