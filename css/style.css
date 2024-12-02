@@ -274,7 +274,25 @@ table tr td {
     line-height: 1.7; 
 }
 
+.Contact-container {
+    text-align: center;
+    border-radius: 8px;
+    background-color: #072a30;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+}
 
+.Contact-info {
+    text-align: center;
+    border-radius: 8px;
+    background-color: #072a30;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    width: 90%;
+}
 
 
 
