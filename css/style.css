@@ -242,6 +242,28 @@ table tr td {
     width: 50%;
 }
 
+.FAQ-container {
+    margin-top: 20px;
+    padding: 20px;
+}
+.faq-item {
+    border: 2px solid #c782f6; 
+    background-color: #072a30; 
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.faq-item h3 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+}
+
+.faq-item p {
+    font-size: 1rem; 
+    line-height: 1.7; 
+}
 
 
 
