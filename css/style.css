@@ -291,7 +291,7 @@ ul li {
     text-align: center;
 }
 
-@media (min-width: 450px) { /*Applies the styles when the screen width is 450 pixels or less*/
+@media (max-width: 450px) { /*Applies the styles when the screen width is 450 pixels or less*/
    
     .nav-container {
         flex-direction: column; /*Aligns items vertically*/
