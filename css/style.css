@@ -401,7 +401,40 @@ ul li {
     footer p {
         margin: 5px;    /*Adds 5 pixels of space around the footer text*/
     }
+    .HowItWorks-container {
+        flex-direction: column; 
+        gap: 20px; 
+        padding: 10px; 
+    }
 
+    .Step-item {
+        padding: 15px; 
+        margin: 0 auto; 
+        width: 90%; 
+    }
+
+    .Small-icons {
+        width: 60px; 
+        height: auto; 
+        margin-bottom: 10px; 
+    }
+
+    .How-it-works-info {
+        width: 90%; 
+        margin: 0 auto; 
+        padding: 15px; 
+    }
+    .Contact-container {
+        width: 90%;
+        margin: 0 auto; 
+        padding: 15px; 
+        text-align: center;
+    }
+
+    .Contact-info {
+        font-size: 1rem; 
+        padding: 10px; 
+    }
 }
 
 
