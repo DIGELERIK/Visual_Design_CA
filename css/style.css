@@ -433,8 +433,8 @@ ul li {
         font-size: 1rem; 
         padding: 10px; 
     }
-}
-.FAQ-container {
+
+    .FAQ-container {
         width: 90%;  /* Sets the width of the FAQ container to 90% */
         margin: 0 auto;  /* Centers the FAQ container */
         padding: 15px;  /* Adds 15 pixels of space inside the FAQ container */
@@ -456,14 +456,13 @@ ul li {
         font-size: 0.9rem;  /* Reduces the font size of the FAQ answer */
         line-height: 1.5;    /* Adjusts the line height for better readability */
     }
-
-@media (max-width: 450px) {}
+    
     .header-container {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
-
+}
 
 
 
