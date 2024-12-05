@@ -297,6 +297,111 @@ table tr td {
     width: 90%;
 }
 
+@media (max-width: 450px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 10px;
+        width: 100%; 
+        text-align: center;
+    }
+
+    .header-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text-container {
+        width: 90%; 
+        padding: 15px;
+    }
+
+    .Big-Img {
+        width: 80%; 
+        margin: 0 auto;
+    }
+
+    .features {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-item {
+        max-width: 90%; 
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-container .text-container {
+        width: 90%; 
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+
+    .header-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Courses-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .Course-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .Course-item .Big-icons {
+        width: 70px; 
+        height: auto;
+    }
+
+    .Course-item .Course-text p {
+        font-size: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%; 
+        gap: 10px;
+        padding: 20px;
+    }
+
+    footer p {
+        margin: 5px 0; 
+    }
+
+}
+
 
 
 
