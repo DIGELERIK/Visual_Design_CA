@@ -1,226 +1,219 @@
 body {
-    background-color: #0b4650;
+    background-color: #0b4650;  /*Sets the backround collor of the whole screen to #0b4650*/
 }
 
 main {
-    padding-bottom: 40px;
-    color: white;
+    padding-bottom: 40px;   /*Adds 40 pixels at the bottom of main*/
+    color: white;   /*Sets the collor of the text to white in main*/
 }
 
 .nav-container {
-    display: flex;
-    align-items: flex-start;
-    background-color: #072a30;
-    border-radius: 20px;
+    display: flex;  /*Sets the flexbox layout*/
+    align-items: flex-start;    /*Alligns container items to the left (row layout)*/
+    background-color: #072a30;  /*Sets the backround collor of navigation to #072a30*/
+    border-radius: 20px;    /*Sets the rounding of the navigation border edges to 20 pixels*/
 }
 
 .TechTutors_logo {
-    width: 100px;
-    height: auto;
-    margin-top: 0;
-    margin-left: 20px;
+    width: 100px;   /*Sets the width of the Logo in the navigation to 100 pixels*/
+    height: auto;   /*Maintains the aspect ratio of the Logo based on the width*/
+    margin-top: 0;  /*Removes unwanted space above the Logo*/
+    margin-left: 20px;  /*Adds 20 pixels of space to the left of the Logo*/
 }
 
 nav {
-    margin-left: auto;
+    margin-left: auto;  /*Pushes the navigation as far to the right ass possible within the nav-container*/
 }
 
 nav ul {
-    display: flex;
+    display: flex;  /*Sets the flexbox layout*/
 }
 
 nav ul li {
-    list-style-type: none;
-    margin: 20px;
+    list-style-type: none;  /*Removes bulletpoints from the list*/
+    margin: 20px;   /*Sets 20 pixels of space all around the each list item*/
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    padding: 10px 10px;
-    font-size: x-large;
-    margin-right: 20px;
+    color: white;   /*Sets the collor of the navigation links text to white*/
+    text-decoration: none;  /*Removes the underline from the link texts*/
+    border-radius: 30px;    /*Sets the rounding of the link border edges to 30 pixels*/
+    padding: 10px; /*Adds space of 10 pixels around each link*/
+    font-size: x-large; /*Sets the size of the link text to x-large*/
+    margin-right: 20px; /*Adds space of 20 pixels on the right of each link*/
 }   
 
-nav a:hover {   
-    color:white;
-    background-color: #0b4650;
-}
-
-main {
-    color: white;
+nav a:hover {       
+    background-color: #0b4650;  /*Sets the background collor when hovering over the links to #0b4650*/
 }
 
 .header-container {
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start; 
-    gap: 20px; 
-    flex-direction: row-reverse;
+    display: flex;  /*Sets the flexbox layout*/
+    align-items: center;    /*Aligns items vertically to the center of the container*/
+    justify-content: flex-start; /*Alligns container items to the left (row layout)*/
+    gap: 20px;  /*Adds 20 pixel of space between items in the container*/
+    flex-direction: row-reverse;    /*Switches the horizontal layout of the container (Image on the right text on the left)*/
 }
 
 .Big-Img {
-    width: 35%;
-    height: auto;
+    width: 35%; /*Sets the image width to 35% of its size*/
+    height: auto;   /*Maintains the aspect ratio of the image based on the width*/
 }
 
 .text-container {
-    text-align: center;
-    border-radius: 30px;
-    background-color: #072a30;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.5;
-    padding: 10px;
+    text-align: center; /*Alligns the text to the center of the container*/
+    border-radius: 30px;    /*Sets the rounding of the container border edges to 30 pixels*/
+    background-color: #072a30;  /*Sets the background collor when hovering over the links to #072a30*/
+    display: flex;  /*Sets the flexboy layout*/
+    flex-direction: column; /*Sets the container items in a column*/
+    justify-content: center;    /*Centers the items verticaly (column layout)*/
+    align-items: center;    /*Aligns items horizontally to the center of the container*/
+    line-height: 1.5;   /*Sets the spacing between the lines of text to 1.5 times the font size*/
+    padding: 10px;  /*Adds 10 pixels of space around the content*/
 }   
 
 .text-container h3 {
-    font-size: 200%;
-    margin-bottom: 10px;
+    font-size: 200%;    /*Sets the size of the text to 200%*/
+    margin-bottom: 10px;    /*Adds 10 pixels of space to the bottom of the container*/
 }
 
 .text-container a {
-    text-decoration: none;
-    color: #c782f6;
+    text-decoration: none;  /*Removes the underline from the link text*/
+    color: #c782f6; /*Sets the collor of the link text to #c782f6*/
 }
 
 header {
-    font-size: 400%;
-    font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 400%;    /*Sets the size of the text to 400%*/
+    font-weight: bold;  /*Sets the text to Bold*/
+    margin-bottom: 20px;    /*Adds 20 pixels of space at the bottom of the header*/
 }
 
-ul li {
-    margin-bottom: 1cm;
-}
-
-.Bio-header {
-    text-align: center;
-}
-
-.subheading {
-    font-size: 100%;
-    margin-left: 60px;
-    margin-right: 60px;
+.subheading {  
+    margin-left: 60px;  /*Adds 60 pixels of space to the left of the text*/
+    margin-right: 60px; /*Adds 60 pixels of space to the right of the text*/
 }
 
 .features {
-    display: flex;
-    gap: 20px;
-    justify-content: space-around;
-    text-align: center;
+    display: flex;  /*Sets the flexbox layout*/
+    gap: 20px;  /*Adds 20 pixels of space between items in the container */
+    justify-content: space-around;  /*Distributes space evenly between the items with equal space around them in the container*/
+    text-align: center; /*Aligns the text to the center of the container*/
 }
 
 .Small-icons {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
+    width: 80px;    /*Sets the width of small icons to 80 pixels*/
+    height: auto;   /*Maintains the aspect ratio of the icons based on the width*/
+    margin-bottom: 10px;    /*Adds 10 pixels of space to the bottom of the container*/
 }
 
 .feature-item {
-    max-width: 300px;
-    border-radius: 30px;
-    background-color: #072a30;
-    padding: 10px;
-    padding-top: 20px;
-    line-height: 1.5;
-    margin-top: 50px;
+    max-width: 300px;   /*Sets the max width to 300 pixels for the items in the container*/
+    border-radius: 30px;    /*Sets the rounding of the border edges to 30 pixels*/
+    background-color: #072a30;  /*Sets the background collor to #072a30*/
+    padding: 10px;  /*Adds 10 pixels of space on all sides of the items in the container*/
+    padding-top: 20px;  /*Adds 20 pixels of space on the top of the items in the container*/
+    line-height: 1.5;   /*Sets the spacing between the lines of the text to 1.5 times the font size*/
+    margin-top: 50px;   /*Adds 50 pixels of space to the top of the container*/
 }
 
 .footer-container {
-    display: flex;
-    align-items: center; 
-    justify-content: flex-start; 
-    gap: 125px;
-    margin-bottom: -80px;
+    display: flex;  /*Sets the flexbox layout*/
+    align-items: center;    /*Aligns the items to the center of the container*/
+    justify-content: flex-start;    /*Aligns items to the left (row layout)*/
+    gap: 125px; /*Adds space of 125 pixels between the items in the container*/
+    margin-bottom: -80px;   /*Removes 80 pixels of space at the bottom of the container*/
 }
 
 .testimonials {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-style: italic;
+    padding-left: 20px; /*Adds 20 pixels of space to the left of the text*/
+    padding-right: 20px;    /*Adds 20 pixels of space to the right of the text*/
+    font-style: italic; /*Sets the font style to italic*/
 }
 
 .name {
-    color: #c782f6;
-    font-weight: bold;
+    color: #c782f6; /*Sets the collor of the text to #c782f6*/
+    font-weight: bold;  /*Sets the font to Bold*/
 }
 
 footer {
-    color: white;
-    display: inline-flex;
-    padding: 10px;
+    color: white;   /*Sets the collor of the text to white*/
+    display: inline-flex;   /*Displays the elements as an inline flex container*/
+    padding: 10px;  /*Adds 10 pixels of space around each item*/
 }
 
 footer p {
-    margin-left: 105px;
-    margin-right: auto;
+    margin-left: 105px; /*Adds 105 pixels ofl space to the left of the text*/
 }
 
 .Socials_logo {
-    width: 60px;
-    height: auto;
-    margin-top: 0;
-    padding-right: 20px;
+    width: 60px;    /*Sets the width of the social logos to 60 pixels*/
+    height: auto;   /*Maintains the aspect ratio of the logos based on the width*/
+    margin-top: 0;  /*Removes unwanted space at the top of the logos*/
+    padding-right: 20px;    /*Adds 20 pixels of space to the right of each logo*/
 }
 
 .Courses-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px; 
-    justify-items: start;
-    padding: 20px;
+    display: grid;  /*Sets the grid layout*/
+    grid-template-columns: repeat(2, 1fr);  /*Defines two equal width columns in the grid*/
+    gap: 20px;  /*Adds space of 20 pixels between the items in the container*/
+    justify-items: start;   /*Aligns the container items to the start of the grid container*/
+    padding: 20px;  /*Adds 20 pixels of space inside the container around the edges*/
 }
 
 .Course-item {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    gap: 30px; 
+    display: flex; /*Sets the flexboy layout*/
+    align-items: center;    /*Aligns the items vertically to the center of the container*/
+    padding: 10px;  /*Adds 10 pixels of space around the items in the container*/
+    gap: 30px;  /*Adds 30 pixels of space between the items in the container*/
 }
 
 .Big-icons {
-    width: 160px;
-    height: auto;
-    border-radius: 30px;
-    background-color: #072a30;
-    padding: 10px;
+    width: 160px;   /*Sets the width of the big icons to 160 pixels*/
+    height: auto;   /*Maintains the aspect ratio of the icons based on the width*/
+    border-radius: 30px;    /*Sets the rounding of the border edges to 30 pixels*/
+    background-color: #072a30;  /*Sets the background collor to #072a30*/
+    padding: 10px;  /*Adds 10 pixels of space around the iconsr*/
 }
 
 .Course-text {
-    color: white;
-    line-height: 1.5; 
-    text-align: center;
-    border-radius: 30px;
-    background-color: #072a30;
-    padding: 10px;
+    color: white;   /*Sets the collor of the text to white*/
+    line-height: 1.5;   /*Sets the spacing between the lines of the text to 1.5 times the font size*/
+    text-align: center; /*Aligns the text to the center of the container*/
+    border-radius: 30px;    /*Sets the rounding of the border edges to 30 pixels*/
+    background-color: #072a30;  /*Sets the background collor to #072a30*/
+    padding: 10px;  /*Adds 10 pixels of space around the text*/
 }
 
 table {
-    width: 97%;
-    border-radius: 30px;
-    background-color: #072a30;
-    padding: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%; /*Sets the widht of the table to 100%*/
+    border-radius: 30px;    /*Sets the rounding of the border edges to 30 pixels*/
+    background-color: #072a30;  /*Sets the background collor to #072a30*/
+    padding: 20px;  /*Adds 20 pixels of space between the border and the table content*/
+    margin-left: auto;  /*Automaticaly adjusts the left margin to center the table*/
+    margin-right: auto; /*Automaticaly adjusts the right margin to center the table*/
 }
 
 table tr th {
-    padding: 30px;
-    text-align: center;
+    padding: 10px;  /*Adds 10 pixels of space around the table headers*/
+    text-align: center; /*Aligns the header text to the center*/
 }
 
 table tr td {
-    padding: 30px;
-    text-align: center;
-    line-height: 1.5;
+    padding: 10px;  /*Adds 10 pixels of space inside the table cells*/
+    text-align: center; /*Aligns the text to the center in the table cells*/
+    line-height: 1.5;   /*Sets the spacing between the lines of the table text to 1.5 times the font size*/
 }
 
 .odd {
-    background-color: #1a3b43; 
+    background-color: #1a3b43;  /*Sets the background collor of the odd table rows to #1a3b43*/
+}
+
+.header-text {
+    text-align: center; /*Aligns the text to the center of the container*/
+    padding-bottom: 10px;   /*Adds 10 pixels of space to the bottom of the container*/
+    margin-left: auto;  /*Automaticaly adjusts the left margin to center the container*/
+    margin-right: auto; /*Automaticaly adjusts the right margin to center the container*/
+    width: 50%; /*Sets the width of the container to 50%*/
 }
 
 .HowItWorks-container {
@@ -236,14 +229,6 @@ table tr td {
     padding: 20px;
 }
 
-.header-text {
-    text-align: center;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 .How-it-works-info {
     text-align: center;
     padding-top: 10px;
@@ -256,6 +241,7 @@ table tr td {
     margin-top: 20px;
     padding: 20px;
 }
+
 .faq-item {
      
     background-color: #072a30; 
@@ -297,110 +283,123 @@ table tr td {
     width: 90%;
 }
 
-@media (max-width: 450px) {
+ul li {
+    margin-bottom: 1cm; 
+}
+
+.Bio-header {
+    text-align: center;
+}
+
+@media (min-width: 450px) { /*Applies the styles when the screen width is 450 pixels or less*/
+   
     .nav-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /*Aligns items vertically*/
+        align-items: center;    /*Aligns the items to the center*/
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        flex-direction: column; /*Aligns items vertically*/
+        align-items: center;    /*Aligns the items to the center*/
+        gap: 10px;  /*Adds 10 pixels of space between the items in the container*/
     }
 
     nav ul li {
-        margin: 0;
+        margin: 0;  /*Removes unwanted space from list items*/
     }
 
     nav a {
-        padding: 10px;
-        width: 100%; 
-        text-align: center;
+        padding: 10px;  /*Adds 10 pixels of space around the  navigation links */
+        text-align: center; /*Aligns the text of the links to the center*/
     }
 
     .header-container {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column; /*Aligns items vertically*/
+        gap: 20px;  /*Adds 20 pixels of space between the items in the container*/
     }
 
     .text-container {
-        width: 90%; 
-        padding: 15px;
+        width: 90%; /*Sets the width of the container to 90%*/
+        padding: 15px;  /*Adds 15 pixels of space around the container*/
     }
 
     .Big-Img {
-        width: 80%; 
-        margin: 0 auto;
+        width: 80%; /*Sets the width of the Big images to 80%*/
+        margin: 0 auto; /*Maintains the aspect ratio of the images based on the width*/
     }
 
     .features {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column; /*Aligns the items vertically*/
+        gap: 20px;  /*Adds 20 pixels of space between the items in the container*/
     }
 
     .feature-item {
-        max-width: 90%; 
-        margin: 0 auto;
-        margin-top: 40px;
+        max-width: 90%; /*Sets the maximum width of the container to 90%*/
+        margin: 0 auto; /*Aligns the items to the center*/
+        margin-top: 40px;   /*Adds 40 pixels of space to the top of the container*/ 
     }
 
     .footer-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        flex-direction: column; /*Aligns the items vertically*/
+        align-items: center;    /*Aligns the items to the center*/
+        gap: 20px;  /*Adds 20 pixels of space between the items in the container*/
     }
 
     .footer-container .text-container {
-        width: 90%; 
-        padding: 15px;
-        margin-bottom: 40px;
+        width: 90%; /*Sets the width of the container to 90%*/  
+        padding: 15px;  /*Adds 15 pixels of space around the text inside the container*/
+        margin-bottom: 40px;    /*Adds 40 pixels of space at the bottom of the container*/
     }
 
     .header-text {
-        text-align: center;
-        padding: 10px;
+        text-align: center; /*Aligns the text to the center of the container*/
+        padding: 10px;  /*Adds 10 pixels of space around the text*/
     }
 
     .Courses-container {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        padding: 10px;
+        display: flex;  /*Sets the flexbox layout*/
+        flex-direction: column; /*Aligns the items vertically*/ 
+        gap: 20px;  /*Adds 20 pixels of space between the items in the container*/
+        padding: 10px;  /*Adds 10 pixels of space around the items in the container*/
     }
 
     .Course-item {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
+        display: flex; /*Sets the flexbox layout*/
+        flex-direction: column; /*Aligns items vertically*/ 
+        align-items: center;    /*Aligns items to the center*/
+        text-align: center; /*Aligns the text to the center*/
+        gap: 10px;  /*Adds 10 pixels of space between the items in the container*/
     }
 
     .Course-item .Big-icons {
-        width: 70px; 
-        height: auto;
+        width: 70px;    /*Sets the width of the Big icons to 70 pixels*/ 
+        height: auto;   /*Maintains the aspect ratio of the icons based on the width*/ 
     }
 
     .Course-item .Course-text p {
-        font-size: 90%;
+        font-size: 90%; /*Sets the size of the text to 90%*/
     }
 
     table {
-        width: 400px;
+        width: 400px;    /*Sets the width of the table to 400 pixels*/
     }
 
     footer {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%; 
-        gap: 10px;
-        padding: 20px;
+        flex-direction: column; /*Aligns the items vertically*/
+        align-items: center;    /*Alligns the items to the center*/
+        text-align: center; /*Aligns the text to the center*/
+        width: 100%; /*Sets the width of the container to 100%*/
+        gap: 10px;  /*Adds 10 pixels of space between the items in the container*/
+        padding: 20px;  /*Adds 20 pixels of space around the items in the container*/
     }
 
     footer p {
-        margin: 5px 0; 
+        margin: 5px;    /*Adds 5 pixels of space around the footer text*/
     }
 
 }
