@@ -457,6 +457,12 @@ ul li {
         line-height: 1.5;    /* Adjusts the line height for better readability */
     }
 
+@media (max-width: 450px) {}
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 
 
