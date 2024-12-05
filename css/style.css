@@ -314,7 +314,6 @@ table tr td {
     }
 
     nav a {
-        font-size: 1rem;
         padding: 10px;
         width: 100%; 
         text-align: center;
@@ -385,6 +384,10 @@ table tr td {
 
     .Course-item .Course-text p {
         font-size: 90%;
+    }
+
+    table {
+        width: 100%;
     }
 
     footer {
