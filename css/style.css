@@ -236,31 +236,29 @@ table tr td {
     margin-right: auto;
     width: 50%;
 }
-
 .FAQ-container {
-    margin-top: 20px;
-    padding: 20px;
+    margin-top: 20px; /* Adds a 20-pixel space at the top of the FAQ container */
+    padding: 20px; /* Adds 20 pixels of space inside the FAQ container */
 }
 
 .faq-item {
      
-    background-color: #072a30; 
-    padding: 15px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    color: white;
+    background-color: #072a30; /* Sets the background color of the FAQ item to #072a30 */
+    padding: 15px; /* Adds 15 pixels of space inside the FAQ item */
+    border-radius: 10px;  /* Rounds the corners of the FAQ item by 10 pixels */
+    margin-bottom: 20px; /* Adds a 20-pixel space below each FAQ item */
+    color: white; /* Sets the text color to white */
 }
 
 .faq-item h3 {
-    font-size: 1.5rem; 
-    margin-bottom: 10px;
+    font-size: 1.5rem; /* Sets the font size of the FAQ question (h3) to 1.5rem */
+    margin-bottom: 10px; /* Adds 10 pixels of space below the FAQ question */
 }
 
 .faq-item p {
-    font-size: 1rem; 
-    line-height: 1.7; 
+    font-size: 1rem; /* Sets the font size of the FAQ answer (p) to 1rem */
+    line-height: 1.7; /* Sets the line height to 1.7 times the font size */
 }
-
 .Contact-container {
     font-size: 150%;
     text-align: center;
@@ -436,7 +434,28 @@ ul li {
         padding: 10px; 
     }
 }
+.FAQ-container {
+        width: 90%;  /* Sets the width of the FAQ container to 90% */
+        margin: 0 auto;  /* Centers the FAQ container */
+        padding: 15px;  /* Adds 15 pixels of space inside the FAQ container */
+    }
 
+    .faq-item {
+        padding: 12px;  /* Reduces the padding inside each FAQ item */
+        margin-bottom: 15px;  /* Adds 15px space below each FAQ item */
+        background-color: #072a30;  /* Keeps the background color the same */
+        border-radius: 10px;  /* Keeps the rounded corners */
+    }
+
+    .faq-item h3 {
+        font-size: 1.2rem;  /* Reduces the font size of the FAQ question */
+        margin-bottom: 8px;  /* Reduces the space below the question */
+    }
+
+    .faq-item p {
+        font-size: 0.9rem;  /* Reduces the font size of the FAQ answer */
+        line-height: 1.5;    /* Adjusts the line height for better readability */
+    }
 
 
 
